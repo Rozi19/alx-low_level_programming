@@ -2,3 +2,5 @@
 1.Compiler:- Write a script that compiles a C file but does not link.
 2.Assembler:-Write a script that generates the assembly code of a C code and save it in an output file.
 3.Name:- Write a script that compiles a C file and creates an executable named cisfun.
+4.Hello, puts:- Write a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.Use the function puts
+5.Hello, printf:- Write a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line. Use the function printf
