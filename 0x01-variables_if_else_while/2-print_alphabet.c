@@ -6,10 +6,10 @@
 int main(void)
 {
 	char ch;
+
 	for (ch = 'a' ; ch <= 'z' ; ch++)
-	{
 		/*  putchar print our lower alphabets */
 		putchar(ch);
-	}
+	printf("\n");
 	return (0);
 }
