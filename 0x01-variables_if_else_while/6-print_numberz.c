@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-        int n;
+	int n;
 
 	/* for loop n to start from 0  and incrment unitle 9 */
-        for (n = 0 ; n < 10; n++)
+	for (n = 0 ; n < 10; n++)
 		/* we convert n into char by + 0 into putchar and print n */
 		putchar(n + '0');
 	putchar('\n');
