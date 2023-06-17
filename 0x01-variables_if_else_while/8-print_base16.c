@@ -8,8 +8,9 @@ int main(void)
 	int n;
 
 	/*for loop n strat with 0 to f by hexadecimal*/
-	for (n = 0 ; n < 16; n++)
-		putchar(n + '0x');
+	for (n = 0 ; n < 10; n++)
+		for (n = 'a' ; n <= 'f' n++)
+		putchar(n + '0');
 	putchar('\n');
 	return (0);
 }
