@@ -6,12 +6,13 @@
 int main(void)
 {
 	int n;
+	char m;
 
 	/*for loop n strat with 0 to f by hexadecimal*/
-	for (n = 0 ; n < 10; n++)
+	for (n = 0 ; n < 10 ; n++)
 		putchar(n + '0');
-	for (n = 'a' ; n <= f; n++)
-		putchar(n + '0')
+	for (m = 'a' ; m <= 'f' ; m++)
+		putchar(m);
 	putchar('\n');
 	return (0);
 }
