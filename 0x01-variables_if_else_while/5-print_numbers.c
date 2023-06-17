@@ -10,6 +10,7 @@ int main(void)
 /* for loop n to start from 0  and incrment unitle 9 */
 	for (n = 0 ; n < 10 ; n++)
 		/* print n */
-	printf("%d\n", n);
+	printf("%d", n);
+	printf("\n");
 	return (0);
 }
