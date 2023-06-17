@@ -1,4 +1,4 @@
-#include <stdio.c>
+#include <stdio.h>
 /**
  * main- print " all possible combinations of single-digit numbers
  * Return: 0
