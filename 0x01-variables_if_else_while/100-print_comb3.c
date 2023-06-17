@@ -14,17 +14,15 @@ int main(void)
 	 * if first digit less than 8 print , spaces
 	 */
 	for (n = 0 ; n < 9 ; n++)
-	{
-		putchar(n + '0');
 		for (m = n + 1 ; m <= 9 ; m++)
 		{
+			putchar(n + '0');
 			putchar(m + '0');
-		}
 		if (n < 8)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-	}
+		}
 	return (0);
 }
