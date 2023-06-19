@@ -5,11 +5,13 @@
  */
 int main(void)
 {
-	int x, y;
+	int x, y, n, m;
 
 	/**
 	 * for loop x strat from 0 to 9
 	 * for loop y start from 0 to 8
+	 * for loop n start from 0 t0 9
+	 * for loop m start from 1 to 9
 	 */
 	for(x = 0 ; x <= 9 ; x++)
 		for(y = 0 ; y <= 8 ; y++)
@@ -17,5 +19,13 @@ int main(void)
 			putchar(x + '0');
 			putchar(y + '0');
 		}
+	putchar(' ');
+	for(n = 0 ; n <= 9 ; n++)
+		for(m = y+1 ; m <= 9 ; m++)
+		{
+			putchar(n + '0');
+			putchar(m + '0');
+		}
+	putchar('\n');
 	return (0);
 }
