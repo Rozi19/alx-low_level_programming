@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int x, y, n, m;
+	int x, y;
 
 	/**
 	 * for loop x strat from 0 to 9
@@ -13,7 +13,9 @@ int main(void)
 	 */
 	for(x = 0 ; x <= 9 ; x++)
 		for(y = 0 ; y <= 8 ; y++)
+		{
 			putchar(x + '0');
-	putchar(y + '0');
+			putchar(y + '0');
+		}
 	return (0);
 }
