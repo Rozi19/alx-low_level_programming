@@ -18,19 +18,18 @@ int main(void)
 		{
 			for(n = 0 ; n <= 9 ; n++)
 			{
-				for(m = 0 ; m <= 9 ; m++)
-					if ( n == 0)
-					{
-						m = y + 1;
-					}
+				if (n < 0)
 				{
-					putchar(x + '0');
-					putchar(y + '0');
-					putchar(' ');
-					putchar(n + '0');
-					putchar(m + '0');
-					putchar(',');
-					putchar(' ');
+					for(m = 0 ; m <= 9 ; m++)
+					{
+						putchar(x + '0');
+						putchar(y + '0');
+						putchar(' ');
+						putchar(n + '0');
+						putchar(m + '0');
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
