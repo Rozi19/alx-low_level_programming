@@ -13,7 +13,7 @@ int main(void)
 	 * the 3rd for loop use for z start from y=1 to 9
 	 * then putchar print our three digits number
 	 */
-       for (x = 0 ; x <= 7 ; x++)
+	for (x = 0 ; x <= 7 ; x++)
 	       for (y = x + 1 ; y <= 8 ; y++)
 		       for (z = y + 1 ; z <= 9 ; z++)
 		       {
