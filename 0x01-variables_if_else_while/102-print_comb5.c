@@ -20,6 +20,10 @@ int main(void)
 			{
 				for(m = 0 ; m <= 9 ; m++)
 				{
+					if(n == 0)
+					{
+						m = y+1;
+					}
 					putchar(x + '0');
 					putchar(y + '0');
 					putchar(' ');
