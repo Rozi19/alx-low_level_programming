@@ -18,13 +18,14 @@ int main(void)
 		{
 			putchar(x + '0');
 			putchar(y + '0');
-		}
-	putchar(' ');
-	for(n = 0 ; n <= 9 ; n++)
-		for(m = y+1 ; m <= 9 ; m++)
-		{
-			putchar(n + '0');
-			putchar(m + '0');
+			putchar(' ');
+			for(n = 0 ; n <= 9 ; n++)
+				for(m = y+1 ; m <= 9 ; m++)
+				{
+					putchar(n + '0');
+					putchar(m + '0');
+				}
+			putchar(',');
 		}
 	putchar('\n');
 	return (0);
