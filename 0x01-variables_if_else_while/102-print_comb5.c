@@ -18,9 +18,10 @@ int main(void)
 		{
 			for(n = 0 ; n <= 9 ; n++)
 			{
-				m = y+1;
 				for(m = 0 ; m <= 9 ; m++)
 				{
+					if(n == 0)
+						m = y+1;
 					putchar(x + '0');
 					putchar(y + '0');
 					putchar(' ');
