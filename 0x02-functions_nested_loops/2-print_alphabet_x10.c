@@ -8,9 +8,7 @@ void print_alphabet_x10(void)
 	int i = 1;
 	char ch;
 
-	/**
-	 * while i start from 1 to 10 print ch 10 time 
-	 */
+	/* while i start from 1 to 10 print ch 10 time*/
 	while (i <= 10)
 	{
 		ch = 'a';
