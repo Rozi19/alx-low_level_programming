@@ -12,7 +12,7 @@ int print_last_digit(int c)
 	/* if c is lessthan 0 c change into postive number*/
 	if (c < 0)
 	{
-		c = (-1) * c;
+		c = -(c);
 		r = c % 10;
 	}
 	else
