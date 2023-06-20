@@ -9,7 +9,8 @@ void jack_bauer(void)
 
 	/**
 	 * for i start with 0 to 2 print the hour
-	 * for j start with 0 to 3 print the hour
+	 * for j start with 0 to 9 print the hour
+	 * if i lessthan 1 print j 1 t0 9 but i equal to 2 print j 1 to 3
 	 * for x start with 0 to 5 print minute
 	 * for y srat with 0 to 9 print minute
 	 */
