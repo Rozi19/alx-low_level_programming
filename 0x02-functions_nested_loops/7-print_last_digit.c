@@ -8,11 +8,11 @@
 int print_last_digit(int c)
 {
 	int r;
-		
+	
 	/* if c is lessthan 0 c change into postive number*/
 	if (c < 0)
 	{
-		c = abs(c);
+		c = (-1) * c;
 		r = c % 10;
 	}
 	else
