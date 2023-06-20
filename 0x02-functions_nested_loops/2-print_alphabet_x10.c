@@ -9,12 +9,12 @@ void print_alphabet_x10(void)
 	char ch;
 
 	/**
-	 * while i start from 1 to 10 print ch 10 time
-	 * while ch start from a to z print lowwercase 
+	 * while i start from 1 to 10 print ch 10 time 
 	 */
 	while (i <= 10)
 	{
 		ch = 'a';
+		/* while ch start from a to z */
 		while (ch <= 'z')
 		{
 			_putchar(ch);
