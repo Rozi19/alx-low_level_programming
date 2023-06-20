@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * void- it return noting
- * print_alphabet the alphabet, in lowercase, followed by a new line
+ * void- "it return noting
+ * print_alphabet: the alphabet, in lowercase, followed by a new line
  */
 void print_alphabet(void)
 {
