@@ -19,7 +19,7 @@ void jack_bauer(void)
 		{
 			for (x = 0; x <= 5; x++)
 			{
-				for (y =0; y <= 9; y++) 
+				for (y = 0; y <= 9; y++) 
 				{
 					_putchar(i + '0');
 					_putchar(j + '0');
@@ -31,4 +31,5 @@ void jack_bauer(void)
 			}
 		}
 	}
+	_putchar('\n');
 }
