@@ -7,11 +7,12 @@
  */
 int _isalpha(int c)
 {
+	int r;
+
 	/**
 	 * if c is alpha print 1
 	 * else print 0
 	 */
-	int r;
 	if (isalpha(c) == 0)
 		r = 0;
 	else
