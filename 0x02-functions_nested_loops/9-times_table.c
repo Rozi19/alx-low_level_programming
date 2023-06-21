@@ -19,10 +19,10 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 			 p = i * j;
-# if p is lessthan 9 print space
+
+			# if p greater than 9 print space.
 			 if (p <= 9)
 				 _putchar(' ');
-#if p greater than 100 divid by 100 and 10
 			 if (p >= 100)
 			 {
 				 _putchar((p / 100) + '0');
