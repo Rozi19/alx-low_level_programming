@@ -3,7 +3,7 @@
  * main - print prints the sum of all the multiples of 3 or 5 below 1024
  * Return: always zero
  */
-int main (void)
+int main(void)
 {
 	int i;
 	int s = 0;
@@ -19,16 +19,7 @@ int main (void)
 			s = s + i;
 		}
 	}
-	if (s >= 100)
-	{
-		putchar((s / 100) + '0');
-		putchar((s % 100 / 10) + '0');
-	}
-	else if (s <= 99 && s >= 10)
-	{
-		putchar((s / 10) + '0');
-	}
-	putchar((s % 10) + '0');
+	printf("%d\n", s);
 	return (0);
 }
 
