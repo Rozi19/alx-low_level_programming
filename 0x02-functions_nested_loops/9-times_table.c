@@ -19,8 +19,6 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 			 p = i * j;
-
-			# if p greater than 9 print space.
 			 if (p <= 9)
 				 _putchar(' ');
 			 if (p >= 100)
