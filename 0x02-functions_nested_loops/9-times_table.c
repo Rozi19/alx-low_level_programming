@@ -19,8 +19,6 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 			 p = i * j;
-			 if (p <= 99)
-				 _putchar(' ');
 			 if (p <= 9)
 				 _putchar(' ');
 			 if (p >= 100)
