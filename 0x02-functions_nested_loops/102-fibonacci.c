@@ -20,15 +20,15 @@ int main(void)
 	{
 		if (c == 50)
 		{
-			printf("%lu \n", n);
+			printf("%lu\n", n);
 		}
 		else
 		{
 			printf("%lu, ", n);
-		}	
+		}
 		f = s;
 		s = n;
 		n = f + s;
 	}
 	return (0);
-}	
+}
