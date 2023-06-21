@@ -12,7 +12,7 @@ void times_table(void)
 	 * for j start from 0 to 9
 	 * if p lessthan 9 print speacs
 	 * if p grater than 100 divid by 100 and 10
-	 * else if p lessthan 99 and p greaterthan 10 divide by 10 
+	 * else if p lessthan 99 and p greaterthan 10 divide by 10
 	 */
 	for (i = 0; i <= 9; i++)
 	{
