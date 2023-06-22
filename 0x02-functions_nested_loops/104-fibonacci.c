@@ -11,8 +11,6 @@ int main(void)
 	unsigned long fh1, fh2, sh1, sh2;
 	unsigned long h1, h2;
 
-	printf("%lu, ", f);
-	printf("%lu, ", s);
 	/**
 	 * for c start 3 to 98
 	 * if c 98 print n
