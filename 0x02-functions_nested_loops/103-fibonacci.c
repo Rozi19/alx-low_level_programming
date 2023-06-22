@@ -17,8 +17,9 @@ int main(void)
 		if (i % 2 == 0)
 		{
 		ss = ss + n;	
-		f = s;
-		s = n;
+		f = s + n;
+		s = n + f;
+		n = f + s;
 		}
 	}
 	printf("%lu\n", ss);
