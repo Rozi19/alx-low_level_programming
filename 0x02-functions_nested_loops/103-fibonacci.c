@@ -6,20 +6,20 @@
 int main(void)
 {
 	long int f = 1, s = 1;
-	long int n = f + s;
+	long int n;
 	long int ss = 0, l = 4000000;
 
 	/**
 	 * while n to 4000000
 	 */
-	while (n < l)
+	while (s < l)
 	{
-		if (n % 2 == 0)
+		if (s % 2 == 0)
 		{
 		ss = ss + n;	
+		n = f + s;
 		f = s;
 		s = n;
-		n = f + s;
 		}
 	}
 	printf("%lu\n", ss);
