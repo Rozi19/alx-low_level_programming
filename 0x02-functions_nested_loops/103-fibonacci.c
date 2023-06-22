@@ -18,11 +18,11 @@ int main(void)
 	{
 		if (s % 2 == 0)
 		{
-			ss = ss + s;	
-			n = f + s;
-			f = s;
-			s = n;
-		}
+			ss = ss + s;
+		}	
+		n = f + s;
+		f = s;
+		s = n;
 	}
 	printf("%lu\n", ss);
 	return (0);
