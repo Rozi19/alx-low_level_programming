@@ -10,6 +10,9 @@ void times_table(void)
 	/**
 	 * for i start from 0 to 9
 	 * for j start from 1 to 9
+	 * if p is greater than 9 speac
+	 * if p greater that 100 divide by 100 and 10
+	 * else if divid by 10
 	 */
 	for (i = 0; i <= 9; i++)
 	{
@@ -19,7 +22,6 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 			 p = i * j;
-			 /* if p greater than 9 print space*/
 			 if (p <= 9)
 				 _putchar(' ');
 			 if (p >= 100)
