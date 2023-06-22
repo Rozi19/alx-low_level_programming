@@ -6,8 +6,10 @@
 int main(void)
 {
 	long int c;
-	long int f = 1, s = 2;
-	long int n = f + s;
+	unsigned long f = 1, s = 2;
+	unsigned long n = f + s;
+	unsigned long fh1, fh2, sh1, sh2;
+	unsigned long h1, h2;
 
 	printf("%lu, ", f);
 	printf("%lu, ", s);
@@ -16,19 +18,34 @@ int main(void)
 	 * if c 98 print n
 	 * else print n and ,
 	 */
-	for (c = 3; c <= 98; c++)
+	for (c = 3; c <= 92; c++)
 	{
-		if (c == 98)
-		{
-			printf("%lu\n", n);
-		}
-		else
-		{
-			printf("%lu, ", n);
-		}
+		printf("%lu, ", n);
 		f = s;
 		s = n;
 		n = f + s;
 	}
+	fh1 = f / 10000000000;
+	sh1 = s / 10000000000;
+	fh2 = f % 10000000000;
+	sh2 = s % 10000000000;
+	for (c = 93; c <= 98; c++)
+	{
+		h1 = fh1 + sh1;
+		h2 = fh2 + sh2;
+		if (fh2 + sh2 > 9999999999)
+		{
+			h1 += 1;
+			h2 %= 10000000000;
+		}
+		prtinf("%lu%lu", h1, h2);
+		if (c != 98)
+			pritnf(", ");
+		fh1 = sh1;
+		fh2 = sh2;
+		sh1 = h1;
+		sh2 = h2;
+	}
+	print("\n");
 	return (0);
 }
