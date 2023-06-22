@@ -15,10 +15,10 @@ int main(void)
 	for (i = 2; i < 4000000; i++)
 	{
 		if (i % 2 == 0)
-		{	
+		{
+		ss = ss + n;	
 		f = s;
 		s = n;
-		ss = ss + s;
 		}
 	}
 	printf("%lu\n", ss);
