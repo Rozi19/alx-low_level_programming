@@ -12,7 +12,7 @@ int main(void)
 	/**
 	 * for i strat from 2 to 4000000
 	 */
-	for (i = 2; i <= 4000000; i++)
+	for (i = 2; i < 4000000; i++)
 	{
 		ss = 4 * s + f;
 		f = s;
