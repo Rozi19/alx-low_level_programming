@@ -39,7 +39,7 @@ int main(void)
 			h2 %= 10000000000;
 		}
 		printf("%lu%lu", h1, h2);
-		if (c != 98)
+		if (c < 98)
 			printf(", ");
 		fh1 = sh1;
 		fh2 = sh2;
