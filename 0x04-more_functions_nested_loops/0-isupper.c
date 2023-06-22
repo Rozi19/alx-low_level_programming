@@ -8,19 +8,8 @@
 int _isupper(int c)
 {
 	if (isupper(c))
-	{
-		_putchar(c + '0');
-		_putchar(':' + '0');
-		_putchar(' ');
-		_putchar('1' + '0');
-	}
+		return (1);
 	else
-	{
-		_putchar(c + '0');
-		_putchar(':' + '0');
-		_putchar(' ');
-		_putchar('0' + '0');
-	}
-	return (c);
+		return (0);
 }
 
