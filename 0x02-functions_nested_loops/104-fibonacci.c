@@ -6,8 +6,7 @@
 int main(void)
 {
 	long int c;
-	unsigned long f = 0, s = 1;
-	unsigned long n;
+	unsigned long f = 0, s = 1, n;
 	unsigned long fh1, fh2, sh1, sh2;
 	unsigned long h1, h2;
 
