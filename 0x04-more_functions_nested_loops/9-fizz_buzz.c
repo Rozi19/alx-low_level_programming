@@ -15,16 +15,45 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
-			printf("FizzBuzz");
+		{
+			_putchar('F');
+			_putchar('i');
+			_putchar('z');
+			_putchar('z');
+			_putchar('B');
+			_putchar('u');
+			_putchar('z');
+			_putchar('z');
+		}
 		else if (i % 3 == 0)
-			printf("Fizz");
+		{
+			_putchar('F');
+			_putchar('i');
+			_putchar('z');
+			_putchar('z');
+		}
 		else if (i % 5 == 0)
-			printf("Buzz");
+		{
+			_putchar('B');
+			_putchar('u');
+			_putchar('z');
+			_putchar('z');
+		}
 		else
-			printf("%d", i);
+		{
+			if (i >= 100)
+			{
+				_putchar((i / 100) + '0');
+				_putchar((i % 100 / 10) + '0');
+			}
+			else if (i <= 99 && i >= 10)
+			{
+			_putchar((i / 10) + '0');
+			}
+		_putchar((i % 10) + '0');
+		}
 		if (i < 100)
-			printf(" ");
+			_putchar(' ');
 	}
-	printf("\n");
 	return (0);
 }
