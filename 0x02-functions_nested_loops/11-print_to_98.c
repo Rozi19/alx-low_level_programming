@@ -26,7 +26,7 @@ void print_to_98(int n)
 	{
 		for (i = n; i <= 98; i++)
 		{
-			if (i < = 0)
+			if (i <= 0)
 			{
 				_putchar('-');
 				if (i <= -100)
