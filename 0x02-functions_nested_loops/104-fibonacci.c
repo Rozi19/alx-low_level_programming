@@ -18,7 +18,7 @@ int main(void)
 	 * if c 98 print n
 	 * else print n and ,
 	 */
-	for (c = 3; c <= 92; c++)
+	for (c = 3; c < 92; c++)
 	{
 		printf("%lu, ", n);
 		f = s;
@@ -38,14 +38,14 @@ int main(void)
 			h1 += 1;
 			h2 %= 10000000000;
 		}
-		prtinf("%lu%lu", h1, h2);
+		printf("%lu%lu", h1, h2);
 		if (c != 98)
-			pritnf(", ");
+			printf(", ");
 		fh1 = sh1;
 		fh2 = sh2;
 		sh1 = h1;
 		sh2 = h2;
 	}
-	print("\n");
+	printf("\n");
 	return (0);
 }
