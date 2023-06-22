@@ -5,9 +5,11 @@
  */
 int main(void)
 {
-	long int f = 1, s = 1;
+	long int f = 1;
+	long int s = 1;
 	long int n;
-	long int ss = 0, l = 4000000;
+	long int ss = 0;
+	long int l = 4000000;
 
 	/**
 	 * while n to 4000000
@@ -16,10 +18,10 @@ int main(void)
 	{
 		if (s % 2 == 0)
 		{
-		ss = ss + n;	
-		n = f + s;
-		f = s;
-		s = n;
+			ss = ss + s;	
+			n = f + s;
+			f = s;
+			s = n;
 		}
 	}
 	printf("%lu\n", ss);
