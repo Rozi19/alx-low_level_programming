@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-	long int f = 0, s = 2;
+	long int f = 1, s = 1;
 	long int n = f + s;
-	long int i, ss = 0;
+	long int ss = 0, l = 4000000;
 
 	/**
-	 * for i strat from 2 to 4000000
+	 * while n to 4000000
 	 */
-	for (i = 2; i < 4000000; i++)
+	while (n < l)
 	{
 		if (i % 2 == 0)
 		{
