@@ -7,18 +7,20 @@ int main(void)
 {
 	long int f = 0, s = 2;
 	long int n = f + s;
-	long int i, ss;
+	long int i, ss = 0;
 
 	/**
 	 * for i strat from 2 to 4000000
 	 */
 	for (i = 2; i < 4000000; i++)
 	{
-		ss = 4 * s + f;
+		if (i % 2 == 0)
+		{	
 		f = s;
-		s = ss;
-		n += s;
+		s = n;
+		ss = ss + s;
+		}
 	}
-	printf("%lu\n", n);
+	printf("%lu\n", ss);
 	return (0);
-}	
+}
