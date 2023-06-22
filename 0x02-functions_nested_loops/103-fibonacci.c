@@ -14,11 +14,11 @@ int main(void)
 	 */
 	while (n < l)
 	{
-		if (i % 2 == 0)
+		if (n % 2 == 0)
 		{
 		ss = ss + n;	
-		f = s + n;
-		s = n + f;
+		f = s;
+		s = n;
 		n = f + s;
 		}
 	}
